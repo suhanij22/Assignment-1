@@ -1,0 +1,139 @@
+.heading{
+   color: red;
+}
+button{
+    color: green;
+}
+#heading1{
+    text-align: center;
+    text-transform:capitalize ;
+}
+#box1{
+    font-size: 25px;
+    border: 2px solid black;
+    
+}
+#box2{
+    font-size: 10px;
+    border: 1px solid grey;
+}
+header{
+    position: absolute;
+    top: 0;
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+    text-align: center;
+}
+#b1,#b2,#b3{
+    display: inline-block;
+   height: 100px;
+   width: 100px;
+   margin-right: 15px;
+}
+#b1{
+    background-color: rgba(135, 202, 225, 30%);
+    border: 2px solid darkblue;
+}
+#b2{
+    background-color: rgba(255, 192, 203,50%);
+    border: 2px solid maroon;
+}
+#b3{
+    background-color: rgba(240, 128, 128,75%);
+    border: 2px solid rgba(208, 16, 58);
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 10px;
+}
+#box4{ 
+    position: fixed;
+    right: 0;
+    bottom: 100px;
+    background-color: lightblue;
+   height: 100px;
+   width: 100px;
+   border: 2px solid darkblue;
+   z-index: 1;
+}
+#navbar{
+    background-color: #b5838d;
+    display: flex;
+    justify-content: space-evenly;
+}
+#p1,#p2,#p3,#p4{
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#media{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+@media( max-width:300px){
+    #media{
+        background-color: green;
+    }
+}
+@media(min-width:300px) and (max-width:400px){
+    #media{
+        background-color: pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    #media{
+        background-color: red;
+    }
+}
+@media(min-width:600px)
+{
+    #media{
+        background-color: blue;
+    }
+}
+#loader{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid rgb(186, 178, 178);
+    border-top:10px solid goldenrod;
+    animation: loader 1.5s ease-in infinite;
+    
+}
+@keyframes loader {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+#calc{
+    height: 200px;
+    width: 200px;
+    border: 2px solid rgb(74, 159, 212);
+    border-radius: 7%;
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.cal{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border: 1px solid black;
+    border-radius: 10%;
+    text-align: center;
+    font-weight: 550;
+    font-size: 20px;
+}
