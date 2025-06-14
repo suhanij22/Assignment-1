@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event-form</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="form">
+        <h1><u>College coding event registration</u></h1>
+        <div class="event-registration"> 
+            <h3 class="event-heading">CodeFest 2025</h3>
+            <p class="details"><b>Date:</b> July 15,2025 |<b> Time:</b> 9:00 AM- 5:00 PM</p>
+            <p class="details"><b>Venue: </b>Computer Science Building,Room 101</p>
+        </div>
+<br>
+        <form>
+            <label for="name">Full Name:</label>
+            <span>*</span>
+            <br>
+            <input type="text" placeholder="Enter your full name" id="name">
+            <br>
+            <br>
+            <label for="email">Email Address:</label>
+            <span>*</span>
+            <br>
+            <input type="email" placeholder="Enter your email address"id="email">
+            <br>
+            <br>
+            <label for="phone">Phone Number:</label>
+            <span>*</span>
+            <br>
+            <input type="number" placeholder="Enter your phone number" id="phone">
+            <br>
+            <br>
+            <label for="college">College/University:</label>
+            <br>
+            <input type="text" placeholder="Enter your college/University name" id="college">
+            <br>
+            <br>
+            <label for="year">Year of Study:</label> 
+            <span>*</span>
+            <br>
+            <label for="year">
+                <select name="Selct year of study" id="year">
+                    <option value="" disabled selected>Select an year</option>
+                    <option value="first">first</option>
+                    <option value="second">second</option>
+                    <option value="third">third</option>
+                    <option value="final">final</option>
+                </select>
+            </label>
+            <br>
+            <br>
+            <label for="lang">Programming Experience:</label>
+            <span>*</span>
+                <br>
+            <label for="lang1">
+            <input type="radio" value="Beginner" name="select" id="lang1">Beginner
+            </label>
+            <label for="lang2">
+            <input type="radio" value="Intermediate"  name="select"  id="lang2">Intermediate
+            </label>
+            <label for="lang3">
+            <input type="radio" value="Advancede"  name="select"  id="lang3">Advanced         
+               </label>
+               <br>
+               <br>
+  <label for="code">Programming Language you know (Select all that apply)       </label>
+    <br>
+    <label for="code1">
+    <input type="checkbox" value="Python" id="code1">Python
+               </label>
+    <label for="code2">
+        <input type="checkbox" value="Java" id="code2">Java
+    </label>
+    <label for="code3">
+        <input type="checkbox" value="C++" id="code3">C++
+    </label>
+    <label for="code4">
+        <input type="checkbox" value="JaveScript" id="code4">JavaScript
+    </label>
+        </form>
+    </div>
+</body>
+</html>
