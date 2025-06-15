@@ -9,7 +9,7 @@ body{
    align-items: center;
     gap: 20px;
 }
-footer{
+header{
     height: 100px;
     width: 1100px;
     background-color:#ffb5a7;
@@ -60,5 +60,8 @@ footer{
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
 }
-
+footer{
+    font-size: 17px;
+    font-weight: 500;
+    }
 
